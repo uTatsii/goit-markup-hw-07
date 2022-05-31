@@ -142,11 +142,11 @@ img {
 
 /* Main navigation */
 
-.site-nav {
+.main-nav {
   margin-right: auto;
 }
 
-.site-nav-list {
+.main-nav-list {
   display: flex;
 }
 
