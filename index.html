@@ -17,43 +17,45 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Page top -->
+    <!-- Header -->
     <header class="page-header">
       <div class="page-header__container container">
+
+        <!-- Logo header -->
         <a class="page-header__logo logo link" href="./index.html" lang="en">
           <span class="page-header__logo-web logo-web">Web</span>Studio</a
         >
         <!-- Main navigation -->
         <nav class="main-nav">
-          <ul class="main-nav__list main-nav-list list">
-            <li class="main-nav__item nav-item">
+          <ul class="main-nav__list list">
+            <li class="main-nav__item">
               <a
-                class="main-nav__link main-nav__link--current nav-link link current"
+                class="main-nav__link main-nav__link--current link"
                 href="./index.html"
                 >Студия</a
               >
             </li>
-            <li class="main-nav__item nav-item">
-              <a class="main-nav__link nav-link link" href="./portfolio.html">Портфолио</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="main-nav__item nav-item">
-              <a class="main-nav__link nav-link link" href="">Контакты</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <!-- Contacts -->
-        <ul class="contact-header list">
-          <li class="contact-item">
-            <a class="contact-header-link link" href="mailto:info@devstudio.com">
-              <svg class="contact-icon" width="16" height="12">
+        <!-- Header contacts -->
+        <ul class="contacts-header list">
+          <li class="contacts-header__item">
+            <a class="contacts-header__link link" href="mailto:info@devstudio.com">
+              <svg class="contacts-header__icon" width="16" height="12">
                 <use href="./images/sprite.svg#mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contact-item">
-            <a class="contact-header-link link" href="tel:+380961111111">
-              <svg class="contact-icon" width="10" height="16">
+          <li class="contacts-header__item">
+            <a class="contacts-header__link link" href="tel:+380961111111">
+              <svg class="contacts-header__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -66,27 +68,27 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="container">
-          <h1 class="hero-title centered">
+        <div class="hero__container container ">
+          <h1 class="hero__title hero__title--centered centered">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
+          <button class="hero__btn btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Benefits -->
       <section class="benefits section">
         <div class="container">
-          <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="benefits-list list">
-            <li class="benefits-item">
-              <div class="benefits-icon-container">
-                <svg class="benefits-icon" width="70" height="70">
+          <h2 class="benefits__title benefits__title--visually-hidden visually-hidden">Преимущества</h2>
+          <ul class="benefits__list list">
+            <li class="benefits__item">
+              <div class="benefits-card">
+                <svg class="benefits-card__icon" width="70" height="70">
                   <use href="./images/sprite.svg#antena"></use>
                 </svg>
               </div>
-              <h3 class="benefits-item-title">Внимание к деталям</h3>
-              <p class="benefits-item-text">
+              <h3 class="benefits-card__title">Внимание к деталям</h3>
+              <p class="benefits-card__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
