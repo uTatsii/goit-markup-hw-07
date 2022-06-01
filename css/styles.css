@@ -574,10 +574,6 @@ img {
 
 /* Footer mailing */
 
-.footer-mailing {
-  margin-left: auto;
-}
-
 .footer-mailing__form {
   display: flex;
   flex-wrap: wrap;
