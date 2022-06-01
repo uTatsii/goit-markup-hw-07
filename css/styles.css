@@ -582,7 +582,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 570px;
-  margin-left: auto;
 }
 
 .footer-mailing__title {
