@@ -490,6 +490,8 @@ img {
   align-items: baseline;
 }
 
+/* Footer contacts */
+
 .footer__contacts {
   flex-shrink: 0;
   margin-right: 70px;
@@ -529,7 +531,7 @@ img {
 /* Footer social */
 
 .footer-socials {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .footer-socials__text {
