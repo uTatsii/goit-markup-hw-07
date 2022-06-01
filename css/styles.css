@@ -6,9 +6,9 @@
   --sub-color: #757575;
   --footer-background-color: #2f303a;
   --team-background-color: #f5f4fa;
-  --footer-social-background: rgba(255, 255, 255, 0.1);
+  --footer-socials-background: rgba(255, 255, 255, 0.1);
   --footer-mailing-border: rgba(255, 255, 255, 0.3);
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer__contacts-color: rgba(255, 255, 255, 0.6);
   --btn-hover: #188ce8;
   --icons: #afb1b8;
   --border-header-color: #ececec;
@@ -120,7 +120,7 @@ img {
 /* Logo header */
 
 .logo,
-.logo-footer {
+.footer__logo {
   font-family: 'Raleway';
   font-style: inherit;
   font-weight: 700;
@@ -298,7 +298,7 @@ img {
   border-radius: 4px;
 }
 
-.benefits-item-title {
+.benefits__subject {
   margin-bottom: 10px;
 
   font-size: inherit;
@@ -307,16 +307,16 @@ img {
   text-transform: uppercase;
 }
 
-.benefits-item-text {
+.benefits__text {
   line-height: 1.7;
   color: var(--sub-color);
 }
 
 /* Title styles */
 
-.what-we-do-title,
-.team-title,
-.clients-title {
+.what-we-do__title,
+.team__title,
+.clients__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -330,20 +330,20 @@ img {
   padding-top: 0;
 }
 
-.what-we-do-list {
+.what-we-do__list {
   display: flex;
   justify-content: center;
 }
 
-.what-we-do-item:not(:last-child) {
+.what-we-do__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.what-we-do-item {
+.what-we-do__item {
   position: relative;
 }
 
-.what-we-do-description {
+.what-we-do__description {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -369,11 +369,11 @@ img {
   background-color: var(--team-background-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-item {
+.team__item {
   display: block;
 
   background-color: var(--main-white);
@@ -382,43 +382,43 @@ img {
     0px 2px 1px var(--black-shadow-02);
 }
 
-.team-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-info-box {
+.team__card {
   padding: 30px 32px;
 }
 
-.team-item-name,
-.team-item-prof {
+.team__name,
+.team__profession {
   font-size: 16px;
   line-height: 1.1875;
 }
 
-.team-item-name {
+.team__name {
   margin-bottom: 10px;
 
   font-weight: 500;
 }
 
-.team-item-prof {
+.team__profession {
   margin-bottom: 16px;
 
   color: var(--sub-color);
 }
 
-.team-social-list {
+.socials__list {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-.social-item:not(:last-child) {
+.socials__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-link {
+.socials__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,29 +433,29 @@ img {
     background-color var(--general-duration) var(--general-cubic);
 }
 
-.social-link:hover,
-.social-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   fill: var(--main-white);
   background-color: var(--web-logo-color);
 }
 
 /* Clients */
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.clients-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,8 +470,8 @@ img {
     border-color var(--general-duration) var(--general-cubic);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--web-logo-color);
   border-color: var(--web-logo-color);
 }
@@ -485,54 +485,54 @@ img {
   background-color: var(--footer-background-color);
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-contacts {
+.footer__contacts {
   flex-shrink: 0;
   margin-right: 70px;
 }
 
-.logo-footer,
-.footer-address {
+.footer__logo,
+.footer__address {
   color: var(--main-white);
 }
 
-.logo-footer {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.footer-address,
-.mail {
+.footer__address,
+.footer__mail {
   margin-bottom: 9px;
 }
 
-.contacts-footer {
+.footer__contacts {
   font-style: normal;
   line-height: 1.715;
 }
 
-.footer-contact-link {
-  color: var(--footer-contacts-color);
+.footer__contact-link {
+  color: var(--footer__contacts-color);
 
   transition: color var(--general-duration) var(--general-cubic);
 }
 
-.footer-contact-link:hover,
-.footer-contact-link:focus {
+.footer__contact-link:hover,
+.footer__contact-link:focus {
   color: var(--web-logo-color);
 }
 
 /* Footer social */
 
-.footer-social {
+.footer-socials {
   margin-right: 93px;
 }
 
-.social-text {
+.footer-socials__text {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -541,17 +541,17 @@ img {
   color: var(--main-white);
 }
 
-.footer-social-list {
+.footer-socials__list {
   display: flex;
   margin: 0 auto;
   justify-content: center;
 }
 
-.footer-social-item:not(:last-child) {
+.footer-socials__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-link {
+.footer-socials__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -559,30 +559,31 @@ img {
   height: 44px;
 
   border-radius: 50%;
-  background-color: var(--footer-social-background);
+  background-color: var(--footer-socials-background);
   fill: var(--main-white);
 
   transition: background-color var(--general-duration) var(--general-cubic);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-socials__link:hover,
+.footer-socials__link:focus {
   background-color: var(--web-logo-color);
 }
 
 /* Footer mailing */
 
-.footer-mailing-container {
+.footer-mailing {
   margin-left: auto;
 }
 
-.footer-mailing-form {
+.footer-mailing__form {
   display: flex;
   flex-wrap: wrap;
   max-width: 570px;
+  margin-left: auto;
 }
 
-.footer-mailing-title {
+.footer-mailing__title {
   width: 100%;
 
   font-weight: 700;
@@ -592,7 +593,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-mail-input {
+.footer-mailing__input {
   margin-right: 12px;
   padding: 15px 16px;
   width: 358px;
@@ -606,14 +607,14 @@ img {
   border-radius: 4px;
 }
 
-.footer-mail::placeholder {
+.footer-mailing__input::placeholder {
   display: inline-block;
   padding-left: 18px;
 
-  color: var(--footer-contacts-color);
+  color: var(--footer__contacts-color);
 }
 
-.footer-mail-button {
+.footer-mailing__btn {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -635,12 +636,12 @@ img {
   transition: background-color var(--general-duration) var(--general-cubic);
 }
 
-.footer-mail-button:hover,
-.footer-mail-button:focus {
+.footer-mailing__btn:hover,
+.footer-mailing__btn:focus {
   background-color: var(--btn-hover);
 }
 
-.paper-plane {
+.footer-mailing__icon {
   margin-left: 10px;
   fill: var(--main-white);
 }
