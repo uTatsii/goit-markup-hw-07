@@ -1,39 +1,49 @@
-$white: #ffffff;
-$black: #000000;
-$whiteOpacity01: rgba(255, 255, 255, 0.1);
-$whiteOpacity03: rgba(255, 255, 255, 0.3);
-$whiteOpacity06: rgba(255, 255, 255, 0.6);
-$blackShadow006: rgba(0, 0, 0, 0.06);
-$blackShadow008: rgba(0, 0, 0, 0.08);
-$blackShadow01: rgba(0, 0, 0, 0.1);
-$blackShadow12: rgba(0, 0, 0, 0.12);
-$blackShadow014: rgba(0, 0, 0, 0.14);
-$blackShadow015: rgba(0, 0, 0, 0.15);
-$blackShadow016: rgba(0, 0, 0, 0.16);
-$blackShadow02: rgba(0, 0, 0, 0.2);
-$primaryTextColor: #212121;
-$subColor: #757575;
-$accentColor: #2196f3;
-$accentColorHover: #188ce8;
-$mainBackgroundColor: #E5E5E5;
-$secondaryBackgroundColor: #f5f4fa;
-$headerBorderColor: #ececec;
-$heroBackgroundColor: rgba(47, 48, 58, 0.4);
-$whatWeDoBackgroundColor: rgba(47, 48, 58, 0.8);
+$mainColors: (
+  'white': #ffffff,
+  'black': #000000,
+);
+$whiteOpacities: (
+  'opacity01': rgba(255, 255, 255, 0.1),
+  'opacity03': rgba(255, 255, 255, 0.3),
+  'opacity06': rgba(255, 255, 255, 0.6),
+);
+$blackShadows: (
+  'shadow006': rgba(0, 0, 0, 0.06),
+  'shadow008': rgba(0, 0, 0, 0.08),
+  'shadow01': rgba(0, 0, 0, 0.1),
+  'shadow012': rgba(0, 0, 0, 0.12),
+  'shadow014': rgba(0, 0, 0, 0.14),
+  'shadow015': rgba(0, 0, 0, 0.15),
+  'shadow016': rgba(0, 0, 0, 0.16),
+  'shadow02': rgba(0, 0, 0, 0.2),
+);
+$primaryTextColors: (
+    'darkTextColor': #212121,
+    'subTextColor': #757575,
+);
+$accentColors: (
+    'accentColor': #2196f3,
+    'accentColorHover': #188ce8,
+);
+$backgroundColors: (
+    'mainBackgroundColor': #e5e5e5,
+    'secondaryBackgroundColor': #f5f4fa,
+    'heroBackgroundColor': rgba(47, 48, 58, 0.4),
+    'whatWeDoBackgroundColor': rgba(47, 48, 58, 0.8),
+    'footerBackgroundColo'r: #2f303a,
+);
+$borderColors: (
+    'headerBorderColor': #ececec,
+    'inputBorderColor': rgba(33, 33, 33, 0.2),
+    'projectsBorder': #eeeeee,
+);
+
 $svgColor: #afb1b8;
-$inputBorederColor: rgba(33, 33, 33, 0.2);
 $placeholderColor: rgba(117, 117, 117, 0.5);
-$projectsBorder: #eeeeee;
-$footerBackgroundColor: #2f303a;
 
 $generalDuration: 250ms;
 $generalCubic: cubic-bezier(0.4, 0, 0.2, 1);
 
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCFPrEHJA.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
+$primaryFontFamily: 'Roboto', sans-serif;
+$primaryFontSize: 14px;
+$primaryLetterSpacing: 0.03em;
