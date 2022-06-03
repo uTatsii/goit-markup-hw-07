@@ -306,4 +306,9 @@ summary {
 .icons {
   color: #afb1b8;
 }
+
+.hero__title {
+  font-family: 'Roboto';
+  font-weight: 900;
+}
 /*# sourceMappingURL=main.css.map */
