@@ -1,0 +1,12 @@
+.hero {
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(to right, var(--main-background), var(--main-background)),
+    url(../images/hero/background-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
