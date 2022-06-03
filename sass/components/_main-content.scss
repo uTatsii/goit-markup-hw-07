@@ -1,0 +1,6 @@
+@each $colorKey, $colorVariants in $colorMap {
+    $primaryColorValue: map-get($map: $colorVariants, $key: 'main');
+    &.#{$colorKey} {
+        color: $primaryColorValue;
+    }
+}

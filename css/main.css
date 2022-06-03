@@ -269,25 +269,41 @@ summary {
 
 @font-face {
   font-family: 'Roboto';
-  src: url(/fonts/roboto/roboto-500.eot) format("eot"), url(/fonts/roboto/roboto-500.ttf) format("ttf"), url(/fonts/roboto/roboto-500.woff) format("woff"), url(/fonts/roboto/roboto-500.woff2) format("woff2");
+  src: url(../fonts/roboto/roboto-500.eot) format("eot"), url(../fonts/roboto/roboto-500.ttf) format("ttf"), url(../fonts/roboto/roboto-500.woff) format("woff"), url(../fonts/roboto/roboto-500.woff2) format("woff2");
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url(/fonts/roboto/roboto-700.eot) format("eot"), url(/fonts/roboto/roboto-700.ttf) format("ttf"), url(/fonts/roboto/roboto-700.woff) format("woff"), url(/fonts/roboto/roboto-700.woff2) format("woff2");
+  src: url(../fonts/roboto/roboto-700.eot) format("eot"), url(../fonts/roboto/roboto-700.ttf) format("ttf"), url(../fonts/roboto/roboto-700.woff) format("woff"), url(../fonts/roboto/roboto-700.woff2) format("woff2");
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url(/fonts/roboto/roboto-900.eot) format("eot"), url(/fonts/roboto/roboto-900.ttf) format("ttf"), url(/fonts/roboto/roboto-900.woff) format("woff"), url(/fonts/roboto/roboto-900.woff2) format("woff2");
+  src: url(../fonts/roboto/roboto-900.eot) format("eot"), url(../fonts/roboto/roboto-900.ttf) format("ttf"), url(../fonts/roboto/roboto-900.woff) format("woff"), url(../fonts/roboto/roboto-900.woff2) format("woff2");
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url(/fonts/raleway/raleway-700.eot) format("eot"), url(/fonts/raleway/raleway-700.ttf) format("ttf"), url(/fonts/raleway/raleway-700.woff) format("woff"), url(/fonts/raleway/raleway-700.woff2) format("woff2");
+  src: url(../fonts/raleway/raleway-700.eot) format("eot"), url(../fonts/raleway/raleway-700.ttf) format("ttf"), url(../fonts/raleway/raleway-700.woff) format("woff"), url(../fonts/raleway/raleway-700.woff2) format("woff2");
   font-weight: 700;
+}
+
+.primaryText {
+  color: #212121;
+}
+
+.accent {
+  color: #2196f3;
+}
+
+.background {
+  color: #e5e5e5;
+}
+
+.icons {
+  color: #afb1b8;
 }
 /*# sourceMappingURL=main.css.map */
