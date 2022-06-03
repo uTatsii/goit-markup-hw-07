@@ -398,8 +398,8 @@ body {
   display: inline-block;
   padding: 32px 0;
   color: #212121;
-  -webkit-transition: color var(--general-duration) var(--general-cubic);
-  transition: color var(--general-duration) var(--general-cubic);
+  -webkit-transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {

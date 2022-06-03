@@ -36,5 +36,5 @@
 
   color: getColor('primaryText', 'main');
 
-  transition: color map-get($map: , $key: ) var(--general-cubic);
+  transition: color, $transition;
 }
