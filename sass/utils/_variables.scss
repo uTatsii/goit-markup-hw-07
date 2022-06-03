@@ -1,50 +1,63 @@
-$webStudioPa
-$mainColors: (
+$colorMap: (
+'mainColors': (
   'white': #ffffff,
   'black': #000000,
-);
-$whiteOpacities: (
-  'opacity01': rgba(255, 255, 255, 0.1),
-  'opacity03': rgba(255, 255, 255, 0.3),
-  'opacity06': rgba(255, 255, 255, 0.6),
-);
-$blackShadows: (
-  'shadow006': rgba(0, 0, 0, 0.06),
-  'shadow008': rgba(0, 0, 0, 0.08),
-  'shadow01': rgba(0, 0, 0, 0.1),
-  'shadow012': rgba(0, 0, 0, 0.12),
-  'shadow014': rgba(0, 0, 0, 0.14),
-  'shadow015': rgba(0, 0, 0, 0.15),
-  'shadow016': rgba(0, 0, 0, 0.16),
-  'shadow02': rgba(0, 0, 0, 0.2),
-);
-$primaryTextColors: (
+),
+'primaryTextColors': (
     'darkTextColor': #212121,
     'subTextColor': #757575,
-);
-$accentColors: (
+),
+'accentColors': (
     'accentColor': #2196f3,
     'accentColorHover': #188ce8,
-);
-$backgroundColors: (
+),
+'backgroundColors': (
     'mainBackgroundColor': #e5e5e5,
-    'secondaryBackgroundColor': #f5f4fa,
-    'heroBackgroundColor': rgba(47, 48, 58, 0.4),
-    'whatWeDoBackgroundColor': rgba(47, 48, 58, 0.8),
-    'footerBackgroundColo'r: #2f303a,
-);
-$borderColors: (
+    'lightBackgroundColor': #f5f4fa,
+    'darkBackgroundColor': #2f303a,
+),
+'borderColors': (
     'headerBorderColor': #ececec,
-    'inputBorderColor': rgba(33, 33, 33, 0.2),
     'projectsBorder': #eeeeee,
+),
+'icons': (
+  'svgColor': #afb1b8,
+),
+);
+$transition: (
+'generalDuration': 250ms,
+'generalCubic': cubic-bezier(0.4, 0, 0.2, 1),
 );
 
-$svgColor: #afb1b8;
-$placeholderColor: rgba(117, 117, 117, 0.5);
+@font-face {
+  font-family: 'Roboto400';
+  src: url(/fonts/roboto/roboto-400.eot) format('eot'), url(/fonts/roboto/roboto-400.ttf) format('ttf'), url(/fonts/roboto/roboto-400.woff) format('woff'), url(/fonts/roboto/roboto-400.woff2) format('woff2');
+  font-weight: 400;
+}
 
-$generalDuration: 250ms;
-$generalCubic: cubic-bezier(0.4, 0, 0.2, 1);
+@font-face {
+  font-family: 'Roboto500';
+  src: url(/fonts/roboto/roboto-500.eot) format('eot'), url(/fonts/roboto/roboto-500.ttf) format('ttf'), url(/fonts/roboto/roboto-500.woff) format('woff'), url(/fonts/roboto/roboto-500.woff2) format('woff2');
+  font-weight: 500;
+}
 
-$primaryFontFamily: 'Roboto', sans-serif;
+@font-face {
+  font-family: 'Roboto700';
+  src: url(/fonts/roboto/roboto-700.eot) format('eot'), url(/fonts/roboto/roboto-700.ttf) format('ttf'), url(/fonts/roboto/roboto-700.woff) format('woff'), url(/fonts/roboto/roboto-700.woff2) format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto900';
+  src: url(/fonts/roboto/roboto-900.eot) format('eot'), url(/fonts/roboto/roboto-900.ttf) format('ttf'), url(/fonts/roboto/roboto-900.woff) format('woff'), url(/fonts/roboto/roboto-900.woff2) format('woff2');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Raleway700';
+  src: url(/fonts/raleway/raleway-700.eot) format('eot'), url(/fonts/raleway/raleway-700.ttf) format('ttf'), url(/fonts/raleway/raleway-700.woff) format('woff'), url(/fonts/raleway/raleway-700.woff2) format('woff2');
+  font-weight: 700;
+}
+
 $primaryFontSize: 14px;
 $primaryLetterSpacing: 0.03em;
