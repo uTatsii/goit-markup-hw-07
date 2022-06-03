@@ -118,7 +118,7 @@ img {
 
 /* Logo header */
 
-.logo,
+.page-header__logo,
 .footer__logo {
   font-family: 'Raleway';
   font-style: inherit;
@@ -127,7 +127,7 @@ img {
   line-height: 1.2;
 }
 
-.logo {
+.page-header__logo {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;

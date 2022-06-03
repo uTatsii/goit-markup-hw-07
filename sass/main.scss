@@ -2,6 +2,14 @@
 
 @import './utils/variables';
 
+@import './utils/additional-styles-normalization';
+
 @import './utils/visually-hidden';
 
-@import './components/main-content';
+@import './components/global';
+
+@import './components/header/header';
+
+@import './components/logo/logo';
+
+@import './components/buttons';

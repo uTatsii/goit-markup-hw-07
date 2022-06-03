@@ -291,6 +291,37 @@ summary {
   font-weight: 700;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.centered {
+  text-align: center;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -305,33 +336,97 @@ summary {
   margin: -1px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Roboto';
   font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  background-color: #e5e5e5;
 }
 
-.primaryText {
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav {
+  margin-right: auto;
+}
+
+.main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav__item {
+  position: relative;
+}
+
+.main-nav__item:not(.main-nav__item:last-child) {
+  margin-right: 50px;
+}
+
+.main-nav__link {
+  display: inline-block;
+  padding: 32px 0;
   color: #212121;
+  -webkit-transition: color var(--general-duration) var(--general-cubic);
+  transition: color var(--general-duration) var(--general-cubic);
 }
 
-.accent {
+.logo {
+  font-family: 'Raleway';
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-web {
   color: #2196f3;
 }
 
-.background {
-  color: #e5e5e5;
+.page-header__logo {
+  padding: 24px 0;
+  margin-right: 93px;
+  color: #000000;
 }
 
-.icons {
-  color: #afb1b8;
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
-.hero__title {
-  font-family: 'Roboto';
-  font-weight: 900;
+.btn {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
