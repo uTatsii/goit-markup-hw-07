@@ -1,63 +1,81 @@
 $colorMap: (
-'mainColors': (
-  'white': #ffffff,
-  'black': #000000,
-),
-'primaryTextColors': (
+  'mainColors': (
+    'white': #ffffff,
+    'black': #000000,
+  ),
+  'primaryTextColors': (
     'darkTextColor': #212121,
     'subTextColor': #757575,
-),
-'accentColors': (
+  ),
+  'accentColors': (
     'accentColor': #2196f3,
     'accentColorHover': #188ce8,
-),
-'backgroundColors': (
+  ),
+  'backgroundColors': (
     'mainBackgroundColor': #e5e5e5,
     'lightBackgroundColor': #f5f4fa,
     'darkBackgroundColor': #2f303a,
-),
-'borderColors': (
+  ),
+  'borderColors': (
     'headerBorderColor': #ececec,
     'projectsBorder': #eeeeee,
-),
-'icons': (
-  'svgColor': #afb1b8,
-),
+  ),
+  'icons': (
+    'svgColor': #afb1b8,
+  ),
 );
+
 $transition: (
-'generalDuration': 250ms,
-'generalCubic': cubic-bezier(0.4, 0, 0.2, 1),
+  'generalDuration': 250ms,
+  'generalCubic': cubic-bezier(0.4, 0, 0.2, 1),
+);
+
+$mainTextStyle: (
+  'primaryFontSize': 14px, 
+  'primaryLetterSpacing': 0.03em,
 );
 
 @font-face {
-  font-family: 'Roboto400';
-  src: url(/fonts/roboto/roboto-400.eot) format('eot'), url(/fonts/roboto/roboto-400.ttf) format('ttf'), url(/fonts/roboto/roboto-400.woff) format('woff'), url(/fonts/roboto/roboto-400.woff2) format('woff2');
+  font-family: 'Roboto';
+  src: url(/fonts/roboto/roboto-400.eot) format('eot'),
+    url(/fonts/roboto/roboto-400.ttf) format('ttf'),
+    url(/fonts/roboto/roboto-400.woff) format('woff'),
+    url(/fonts/roboto/roboto-400.woff2) format('woff2');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Roboto500';
-  src: url(/fonts/roboto/roboto-500.eot) format('eot'), url(/fonts/roboto/roboto-500.ttf) format('ttf'), url(/fonts/roboto/roboto-500.woff) format('woff'), url(/fonts/roboto/roboto-500.woff2) format('woff2');
+  font-family: 'Roboto';
+  src: url(/fonts/roboto/roboto-500.eot) format('eot'),
+    url(/fonts/roboto/roboto-500.ttf) format('ttf'),
+    url(/fonts/roboto/roboto-500.woff) format('woff'),
+    url(/fonts/roboto/roboto-500.woff2) format('woff2');
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Roboto700';
-  src: url(/fonts/roboto/roboto-700.eot) format('eot'), url(/fonts/roboto/roboto-700.ttf) format('ttf'), url(/fonts/roboto/roboto-700.woff) format('woff'), url(/fonts/roboto/roboto-700.woff2) format('woff2');
+  font-family: 'Roboto';
+  src: url(/fonts/roboto/roboto-700.eot) format('eot'),
+    url(/fonts/roboto/roboto-700.ttf) format('ttf'),
+    url(/fonts/roboto/roboto-700.woff) format('woff'),
+    url(/fonts/roboto/roboto-700.woff2) format('woff2');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Roboto900';
-  src: url(/fonts/roboto/roboto-900.eot) format('eot'), url(/fonts/roboto/roboto-900.ttf) format('ttf'), url(/fonts/roboto/roboto-900.woff) format('woff'), url(/fonts/roboto/roboto-900.woff2) format('woff2');
+  font-family: 'Roboto';
+  src: url(/fonts/roboto/roboto-900.eot) format('eot'),
+    url(/fonts/roboto/roboto-900.ttf) format('ttf'),
+    url(/fonts/roboto/roboto-900.woff) format('woff'),
+    url(/fonts/roboto/roboto-900.woff2) format('woff2');
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'Raleway700';
-  src: url(/fonts/raleway/raleway-700.eot) format('eot'), url(/fonts/raleway/raleway-700.ttf) format('ttf'), url(/fonts/raleway/raleway-700.woff) format('woff'), url(/fonts/raleway/raleway-700.woff2) format('woff2');
+  font-family: 'Raleway';
+  src: url(/fonts/raleway/raleway-700.eot) format('eot'),
+    url(/fonts/raleway/raleway-700.ttf) format('ttf'),
+    url(/fonts/raleway/raleway-700.woff) format('woff'),
+    url(/fonts/raleway/raleway-700.woff2) format('woff2');
   font-weight: 700;
 }
-
-$primaryFontSize: 14px;
-$primaryLetterSpacing: 0.03em;
