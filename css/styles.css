@@ -14,7 +14,7 @@
   --border-header-color: #ececec;
   --order-comment-placeholder: rgba(117, 117, 117, 0.5);
   --modal__input-border: rgba(33, 33, 33, 0.2);
-  --main-background: rgba(47, 48, 58, 0.4);
+  --main-background: hsla(235, 10%, 21%, 0.4);
   --what-we-do-background: rgba(47, 48, 58, 0.8);
   --black-shadow-01: rgba(0, 0, 0, 0.1);
   --black-shadow-02: rgba(0, 0, 0, 0.2);

@@ -463,8 +463,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--main-background)), to(var(--main-background))), url(../images/hero/background-hero.jpg);
-  background-image: linear-gradient(to right, var(--main-background), var(--main-background)), url(../images/hero/background-hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/background-hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/background-hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
