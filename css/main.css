@@ -534,6 +534,54 @@ body {
   line-height: 1.16;
 }
 
+.what-we-do {
+  padding-top: 0;
+}
+
+.what-we-do__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-do__item {
+  position: relative;
+}
+
+.what-we-do__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do__description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 370px;
+  height: 70px;
+  font-weight: 700;
+  line-height: 1.1428;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-white);
+  background-color: var(--what-we-do-background);
+}
+
 .logo {
   font-family: 'Raleway';
   font-style: inherit;
