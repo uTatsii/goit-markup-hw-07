@@ -458,6 +458,73 @@ body {
   fill: currentColor;
 }
 
+.hero {
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--main-background)), to(var(--main-background))), url(../images/hero/background-hero.jpg);
+  background-image: linear-gradient(to right, var(--main-background), var(--main-background)), url(../images/hero/background-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits__item {
+  width: 270px;
+}
+
+.benefits__item:not(.benefits__item:last-child) {
+  margin-right: 30px;
+}
+
+.benefits__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.benefits__subject {
+  margin-bottom: 10px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits__text {
+  line-height: 1.7;
+  color: #757575;
+}
+
 .logo {
   font-family: 'Raleway';
   font-style: inherit;
@@ -505,28 +572,5 @@ body {
 
 .hero__btn:hover, .hero__btn:focus {
   background-color: 'accent', 'hover';
-}
-
-.hero {
-  max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--main-background)), to(var(--main-background))), url(../images/hero/background-hero.jpg);
-  background-image: linear-gradient(to right, var(--main-background), var(--main-background)), url(../images/hero/background-hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.hero__title {
-  margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
