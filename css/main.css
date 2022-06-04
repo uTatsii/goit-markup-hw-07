@@ -578,8 +578,8 @@ body {
   line-height: 1.1428;
   text-align: center;
   text-transform: uppercase;
-  color: var(--main-white);
-  background-color: var(--what-we-do-background);
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .logo {

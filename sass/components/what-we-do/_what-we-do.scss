@@ -34,7 +34,7 @@
   line-height: 1.1428;
   text-align: center;
   text-transform: uppercase;
-  color: var(--main-white);
+  color: getColor('main', 'white');
 
-  background-color: var(--what-we-do-background);
+  background-color: rgba(getColor('background', 'dark'), 0.8);
 }
