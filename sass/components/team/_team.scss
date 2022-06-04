@@ -40,7 +40,7 @@
   @extend %teamTextSize;
   margin-bottom: 16px;
 
-  color: var(--sub-color);
+  color: getColor('primaryText', 'sub');
 }
 
 .team__socials-list {
@@ -62,14 +62,13 @@
 
   border-radius: 50%;
 
-  fill: var(--icons);
+  fill: getColor('icons', 'main');
 
-  transition: fill var(--general-duration) var(--general-cubic),
-    background-color var(--general-duration) var(--general-cubic);
-}
+  transition: fill $transition, background-color $transition;
 
-.team__socials-link:hover,
-.team__socials-link:focus {
-  fill: var(--main-white);
-  background-color: var(--web-logo-color);
+  &:hover,
+  &:focus {
+      fill: getColor('main', 'white');
+      background-color: getColor('accent', 'main');
+  }
 }

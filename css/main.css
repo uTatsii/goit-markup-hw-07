@@ -620,7 +620,7 @@ body {
 
 .team__profession {
   margin-bottom: 16px;
-  color: var(--sub-color);
+  color: #757575;
 }
 
 .team__socials-list {
@@ -650,15 +650,14 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--icons);
-  -webkit-transition: fill var(--general-duration) var(--general-cubic), background-color var(--general-duration) var(--general-cubic);
-  transition: fill var(--general-duration) var(--general-cubic), background-color var(--general-duration) var(--general-cubic);
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__socials-link:hover,
-.team__socials-link:focus {
-  fill: var(--main-white);
-  background-color: var(--web-logo-color);
+.team__socials-link:hover, .team__socials-link:focus {
+  fill: #ffffff;
+  background-color: #2196f3;
 }
 
 .logo {
