@@ -2,7 +2,6 @@
   flex-shrink: 0;
   margin-right: 70px;
 
-  font-style: normal;
   line-height: 1.715;
 }
 
@@ -10,8 +9,12 @@
   color: getColor('main', 'white');
 }
 
-.footer-contacts__item:not(:last-child) {
+.footer-contacts__item {
+  font-style: normal;
+
+  &:not(:last-child) {
   margin-bottom: 9px;
+}
 }
 
 .footer-contacts__link {

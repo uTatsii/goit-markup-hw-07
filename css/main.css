@@ -956,7 +956,6 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-right: 70px;
-  font-style: normal;
   line-height: 1.715;
 }
 
@@ -964,6 +963,9 @@ body {
   color: #ffffff;
 }
 
+.footer-contacts__item {
+  font-style: normal;
+}
 .footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
