@@ -98,9 +98,7 @@
 .modal__agreement {
   position: relative;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentered;
   margin-bottom: 30px;
   padding-left: 5px;
 

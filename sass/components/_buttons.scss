@@ -65,9 +65,7 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentered;
   width: 30px;
   height: 30px;
   padding: 0;
@@ -101,8 +99,7 @@
   border-radius: 4px;
   border-style: none;
 
-  margin-left: auto;
-  margin-right: auto;
+  @include horizontalMargin(auto);
 
   transition: background-color $transition;
 
