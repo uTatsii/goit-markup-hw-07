@@ -3,9 +3,7 @@
 }
 
 .clients__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentered;
 }
 
 .clients__item:not(:last-child) {
@@ -13,9 +11,7 @@
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentered;
   width: 170px;
   height: 92px;
 

@@ -24,9 +24,7 @@
   left: 0;
   bottom: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentered;
   width: 370px;
   height: 70px;
 
