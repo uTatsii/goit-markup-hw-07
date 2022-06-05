@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto';
   font-size: map-get($mainTextStyle, 'primaryFontSize');
-  color: getColor('main', 'white');
+  color: getColor('primaryText', 'main');
   letter-spacing: map-get($mainTextStyle, 'primaryLetterSpacing');
   background-color: getColor('main', 'white');
 }
