@@ -12,25 +12,19 @@
 }
 
 .footer-socials__list {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  @extend %socialsList;
 }
 
 .footer-socials__item:not(:last-child) {
-  margin-right: 10px;
+  @extend %socialsInnerMargin;
 }
 
 .footer-socials__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
+  @extend %socialsLink;
 
-  border-radius: 50%;
-  background-color: rgba(getColor('main', 'white'), 0.1);
   fill: getColor('main', 'white');
+
+  background-color: rgba(getColor('main', 'white'), 0.1);
 
   transition: background-color $transition;
 

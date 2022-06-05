@@ -24,16 +24,12 @@
   padding: 30px 32px;
 }
 
-%teamTextSize {
-  font-size: 16px;
-  line-height: 1.1875;
-}
-
 .team__name {
   @extend %teamTextSize;
   margin-bottom: 10px;
 
   font-weight: 500;
+  color: getColor('primaryText', 'main');
 }
 
 .team__profession {
@@ -44,23 +40,15 @@
 }
 
 .team__socials-list {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  @extend %sociaslList;
 }
 
 .team__socials-item:not(:last-child) {
-  margin-right: 10px;
+  @extend %socialsInnerMargin;
 }
 
 .team__socials-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-
-  border-radius: 50%;
+  @extend %socialsLink;
 
   fill: getColor('icons', 'main');
 
