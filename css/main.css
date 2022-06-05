@@ -88,7 +88,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1194,6 +1199,7 @@ body {
   margin: 0 auto;
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
