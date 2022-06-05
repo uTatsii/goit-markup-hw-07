@@ -1,41 +1,15 @@
-@import './utils/normalize';
-
-@import './utils/variables';
-
-@import './utils/additional-styles-normalization';
-
-@import './utils/visually-hidden';
+@import './utils/utils';
 
 @import './components/global';
 
+@import './components/main-page/main-page';
+
+@import './components/portfolio/portfolio';
+
 @import './components/header/header';
 
-@import './components/hero/hero';
+@import './components/footer/footer';
 
-@import './components/benefits/benefits';
-
-@import './components/title-styles';
-
-@import './components/what-we-do/what-we-do';
-
-@import './components/team/team';
-
-@import './components/clients/clients';
-
-@import './components/footer/footer-contacts';
-
-@import './components/footer/footer-socials';
-
-@import './components/footer/footer-mailing';
-
-@import './components/modal/modal';
-
-@import './components/modal/order-form';
-
-@import './components/portfolio/filter';
-
-@import './components/portfolio/projects';
-
-@import './components/logo/logo';
+@import './components/logo';
 
 @import './components/buttons';
