@@ -40,7 +40,7 @@
 }
 
 .team__socials-list {
-  @extend %sociaslList;
+  @extend %socialsList;
 }
 
 .team__socials-item:not(:last-child) {
