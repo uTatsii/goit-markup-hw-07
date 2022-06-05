@@ -80,6 +80,7 @@
   border: 1px solid rgba(getColor('primaryText', 'main'), 0.2);
   border-radius: 4px;
   outline: transparent;
+  background-color: getColor('main', 'white');
 
   transition: border-color $transition;
 
