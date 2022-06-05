@@ -118,7 +118,7 @@
 
   border-width: 2px;
   border-style: solid;
-  border-color: getColor('primaryColor', 'main');
+  border-color: getColor('primaryText', 'main');
   border-radius: 2px;
 
   transition: border-color $transition;
