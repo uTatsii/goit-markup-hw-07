@@ -1,0 +1,3 @@
+@function getColor($miniMap, $key) {
+  @return map-get(map-get($colorMap, $miniMap), $key);
+}

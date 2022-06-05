@@ -25,10 +25,6 @@ $colorMap: (
   ),
 );
 
-@function getColor($miniMap, $key) {
-  @return map-get(map-get($colorMap, $miniMap), $key);
-}
-
 $valueMap: (
   'containerWidth': 1200px,
   'containerHorizontalPadding': 15px,
@@ -44,11 +40,6 @@ $mainTextStyle: (
 );
 
 $transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-@mixin horizontalMargin($value) {
-  margin-right: $value;
-  margin-left: $value;
-}
 
 @font-face {
   font-family: 'Roboto';
