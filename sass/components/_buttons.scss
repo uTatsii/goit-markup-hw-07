@@ -27,7 +27,7 @@
 
   &:hover,
   &:focus {
-    background-color: 'accent', 'hover';
+    background-color: getColor('accent', 'hover');
   }
 }
 
